@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+header{
+    background-image: linear-gradient(to right, #ff5757, #ff347a, #f81aa4, #d530d3, #8c52ff);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 20px;
+    display: flex;
+    font-family: 'Shrikhand', serif;
+    color: aliceblue;
+}
+
+img{
+    width: 150px;
+}
+.TopContent{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.CajaTopContent{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+.CajaTopContent img{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+h1{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 24px;
+    font-family: 'Bungee', sans-serif;
+}
+h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: lightsteelblue;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.GOOFYPAGELOGO img{
+width: 95px;
+padding: 0 0 0 10px;
+}
+.carousel slide{
+    display: flex;
+    width: 40%;
+    height: 20%;
+}
+.caja1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.caja1 img{
+    display: flex;
+    justify-content:center;
+}
+.caja1 h3{
+    display:flex;
+    justify-content: center;
+}
+.caja1 p{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.caja img{
+    display: flex;
+    justify-content:center;
+}
+.caja h3{
+    display:flex;
+    justify-content: center;
+    
+}
+.caja p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.badjokes{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(255, 183, 0);
+    margin: 10px 0 0 0;
+}
+footer{
+    display: flex;
+    justify-content:left;
+    background-color: rgb(232, 232, 232);
+    margin: 10px 0 0 0;
+}
+footer div{
+    display: flex;
+    font-family: 'Shrikhand', serif;
+    color: indianred;
+    margin: 0 2px 0 2px;
+}
